@@ -1,0 +1,38 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "flexymechanicalcheese:ultra_mega_cheese"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "flexymechanicalcheese:charged_ultra_mega_cheese",
+      "chance": 0.1
+    },
+    {
+      "id": "minecraft:dirt",
+      "chance": 99.9
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying"
+      "ingredients": [
+        {
+          "item": "flexymechanicalcheese:incomplete_cheese"
+        },
+        {
+          "item": "flexymechanicalcheese:ultra_mega_cheese"
+        }
+      ],
+      "results" [
+      {
+        "id": "flexymechanicalcheese:charged_ultra_mega_cheese"
+      }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "flexymechanicalcheese:incomplete_cheese"
+  }
+}

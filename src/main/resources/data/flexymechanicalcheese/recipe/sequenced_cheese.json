@@ -1,0 +1,83 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:dirt"
+  },
+  "loops": 5,
+  "results": [
+    {
+      "id": "flexymechanicalcheese:cheese_base",
+      "chance": 25.0
+    },
+    {
+      "id": "minecraft:dirt",
+      "chance": 75.0
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "flexymechanicalcheese:incomplete_cheese" },
+        { "item": "minecraft:stone" }
+      ],
+      "results": [
+        { "id": "flexymechanicalcheese:incomplete_cheese" }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "flexymechanicalcheese:incomplete_cheese" },
+        { "item": "minecraft:stone" }
+      ],
+      "results": [
+        { "id": "flexymechanicalcheese:incomplete_cheese" }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "flexymechanicalcheese:incomplete_cheese" },
+        { "item": "create:cogwheel" }
+      ],
+      "results": [
+        { "id": "flexymechanicalcheese:incomplete_cheese" }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "flexymechanicalcheese:incomplete_cheese" },
+        { "item": "create:mechanical_crafter" }
+      ],
+      "results": [
+        { "id": "flexymechanicalcheese:incomplete_cheese" }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "flexymechanicalcheese:incomplete_cheese" },
+        { "item": "create:mechanical_crafter" }
+      ],
+      "results": [
+        { "id": "flexymechanicalcheese:incomplete_cheese" }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "flexymechanicalcheese:incomplete_cheese" },
+        { "item": "create:mechanical_crafter" }
+      ],
+      "results": [
+        { "id": "flexymechanicalcheese:incomplete_cheese" }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "flexymechanicalcheese:incomplete_cheese"
+  }
+}
+

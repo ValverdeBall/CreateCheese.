@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "flexymechanicalcheese:charged_dragon_cheese"
+    },
+    "B": {
+      "item": "minecraft:dragon_breath"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BCB",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "flexymechanicalcheese:charged_dragon_cheese_with_breath"
+  }
+}

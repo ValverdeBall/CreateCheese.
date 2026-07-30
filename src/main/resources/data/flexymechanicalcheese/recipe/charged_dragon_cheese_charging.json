@@ -1,0 +1,15 @@
+{
+  "type": "createaddition:charging",
+  "energy": 80000,
+  "ingredients": [
+    {
+      "item": "flexymechanicalcheese:dragon_cheese"
+    }
+  ],
+  "max_charge_rate": 800,
+  "results": [
+    {
+      "id": "flexymechanicalcheese:charged_dragon_cheese"
+    }
+  ]
+}

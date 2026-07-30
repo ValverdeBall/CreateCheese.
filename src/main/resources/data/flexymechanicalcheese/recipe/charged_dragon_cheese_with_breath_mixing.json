@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "flexymechanicalcheese:charged_dragon_cheese"
+    },
+    { "item": "minecraft:dragon_breath" },
+    { "item": "minecraft:dragon_breath" },
+    { "item": "minecraft:dragon_breath" },
+    { "item": "minecraft:dragon_breath" },
+    { "item": "minecraft:dragon_breath" },
+    { "item": "minecraft:dragon_breath" },
+    { "item": "minecraft:dragon_breath" },
+    { "item": "minecraft:dragon_breath" }
+  ],
+  "results": [
+    {
+      "id": "flexymechanicalcheese:charged_dragon_cheese_with_breath"
+    }
+  ]
+}

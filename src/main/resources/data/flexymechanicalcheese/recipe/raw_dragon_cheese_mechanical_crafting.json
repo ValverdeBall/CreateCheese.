@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "flexymechanicalcheese:dragon_cheese_shard"
+    }
+  },
+  "pattern": [
+    "SSSSS",
+    "SSSSS",
+    "SSSSS",
+    "SSSSS",
+    "SSSSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "flexymechanicalcheese:raw_dragon_cheese"
+  },
+  "show_notification": true
+}

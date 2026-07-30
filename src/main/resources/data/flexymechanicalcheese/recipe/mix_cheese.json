@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    { "item": "flexymechanicalcheese:pressed_cheese_base" },
+    { "item": "create:wrench" },
+    { "item": "create:goggles" },
+    {
+      "type": "fluid_stack",
+      "fluid": "minecraft:lava",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "id": "flexymechanicalcheese:super_cheese_raw"
+    }
+  ]
+}
+

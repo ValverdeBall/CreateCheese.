@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "flexymechanicalcheese:item/charged_dragon_cheese_with_breath"
+  }
+}

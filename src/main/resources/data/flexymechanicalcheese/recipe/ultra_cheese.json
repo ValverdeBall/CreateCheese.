@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "pattern": [
+    "DDDDDDDDD",
+    "DDDDDDDDD",
+    "DDDDDDDDD",
+    "DDDDDDDDD",
+    "DDDDCDDDD",
+    "DDDDDDDDD",
+    "DDDDDDDDD",
+    "DDDDDDDDD",
+    "DDDDDDDDD"
+  ],
+  "key": {
+    "D": { "item": "create:brass_block" },
+    "C": { "item": "flexymechanicalcheese:super_cheese_raw" }
+  },
+  "result": {
+    "count": 1,
+    "id": "flexymechanicalcheese:ultra_mega_cheese"
+  },
+  "show_notification": false
+}
+

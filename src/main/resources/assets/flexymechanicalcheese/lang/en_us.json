@@ -1,0 +1,19 @@
+{
+  "itemGroup.flexymechanicalcheese.cheese_tab": "Create: Cheese.",
+
+  "item.flexymechanicalcheese.incomplete_cheese": "Incomplete cheese base",
+  "item.flexymechanicalcheese.cheese_base": "Technologically advanced cheese base",
+  "item.flexymechanicalcheese.pressed_cheese_base": "Pressed cheese base",
+  "item.flexymechanicalcheese.super_cheese_raw": "Super-Technological raw cheese",
+  "item.flexymechanicalcheese.ultra_mega_cheese": "Very technologically advanced mechanical cheese",
+
+  "item.flexymechanicalcheese.dragon_cheese_shard": "Piece of dragon cheese",
+  "tooltip.flexymechanicalcheese.dragon_cheese_shard": "Obtained through killing the Ender Dragon",
+
+  "item.flexymechanicalcheese.raw_dragon_cheese": "Raw dragon cheese",
+  "item.flexymechanicalcheese.dragon_cheese": "Dragon cheese",
+  "item.flexymechanicalcheese.charged_dragon_cheese": "Charged dragon cheese",
+  "item.flexymechanicalcheese.charged_dragon_cheese_with_breath": "Charged dragon cheese with dragon breath",
+  "item.flexymechanicalcheese.charged_ultra_mega_cheese": "Charged very technologically advanced mechanical-dragon cheese with dragon breath"
+}
+

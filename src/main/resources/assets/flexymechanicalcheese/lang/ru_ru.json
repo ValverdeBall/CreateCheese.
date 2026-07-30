@@ -1,0 +1,19 @@
+{
+  "itemGroup.flexymechanicalcheese.cheese_tab": "Механический Сыр.",
+
+  "item.flexymechanicalcheese.incomplete_cheese": "Незавершённая сырная заготовка",
+  "item.flexymechanicalcheese.cheese_base": "Очень технологичная сырная основа",
+  "item.flexymechanicalcheese.pressed_cheese_base": "Прессованная сырная основа",
+  "item.flexymechanicalcheese.super_cheese_raw": "Сверхтехнологичный сырой сыр",
+  "item.flexymechanicalcheese.ultra_mega_cheese": "Сверхтехнологично продвинутый механический сыр",
+
+  "item.flexymechanicalcheese.dragon_cheese_shard": "Осколок драконьего сыра",
+  "tooltip.flexymechanicalcheese.dragon_cheese_shard": "Получается с убийства Эндер дракона",
+
+  "item.flexymechanicalcheese.raw_dragon_cheese": "Сырой драконий сыр",
+  "item.flexymechanicalcheese.dragon_cheese": "Драконий сыр",
+  "item.flexymechanicalcheese.charged_dragon_cheese": "Заряженный драконий сыр",
+  "item.flexymechanicalcheese.charged_dragon_cheese_with_breath": "Заряженный драконий сыр с дыханием дракона",
+  "item.flexymechanicalcheese.charged_ultra_mega_cheese": "Заряженный сверхтехнологично продвинутый механическо-драконий сыр с дыханием дракона"
+}
+

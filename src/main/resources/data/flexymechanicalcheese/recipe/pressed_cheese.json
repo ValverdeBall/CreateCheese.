@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "flexymechanicalcheese:cheese_base"
+    }
+  ],
+  "results": [
+    {
+      "id": "flexymechanicalcheese:pressed_cheese_base"
+    }
+  ]
+}
+

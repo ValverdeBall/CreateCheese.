@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "flexymechanicalcheese:raw_dragon_cheese"
+  },
+  "result": {
+    "id": "flexymechanicalcheese:dragon_cheese"
+  },
+  "experience": 2.0,
+  "cookingtime": 105240
+}
