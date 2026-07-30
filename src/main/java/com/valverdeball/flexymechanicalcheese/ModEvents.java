@@ -1,4 +1,4 @@
-package com.flexymechanicalcheese;
+package com.valverdeball.flexymechanicalcheese;
 
 import net.minecraft.world.entity.boss.enderdragon.EnderDragon;
 import net.minecraft.world.entity.item.ItemEntity;
