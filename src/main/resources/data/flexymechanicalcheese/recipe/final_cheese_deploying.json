@@ -16,7 +16,7 @@
   ],
   "sequence": [
     {
-      "type": "create:deploying"
+      "type": "create:deploying",
       "ingredients": [
         {
           "item": "flexymechanicalcheese:incomplete_cheese"
@@ -25,7 +25,7 @@
           "item": "flexymechanicalcheese:ultra_mega_cheese"
         }
       ],
-      "results" [
+      "results": [
       {
         "id": "flexymechanicalcheese:charged_ultra_mega_cheese"
       }

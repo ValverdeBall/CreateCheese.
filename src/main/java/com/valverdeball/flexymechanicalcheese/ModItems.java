@@ -17,7 +17,8 @@ import java.util.List;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems("flexymechanicalcheese");
     public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, "flexymechanicalcheese");
-
+  
+    // cheese branch
     public static final DeferredItem<Item> INCOMPLETE_CHEESE = ITEMS.register("incomplete_cheese", () -> new Item(new Item.Properties().stacksTo(1)));
     public static final DeferredItem<Item> CHEESE_BASE = ITEMS.register("cheese_base", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> PRESSED_CHEESE_BASE = ITEMS.register("pressed_cheese_base", () -> new Item(new Item.Properties()));
@@ -33,7 +34,8 @@ public class ModItems {
                     )
             )
     );
-
+  
+    // dragon branch
     public static final DeferredItem<Item> DRAGON_CHEESE_SHARD = ITEMS.register("dragon_cheese_shard", () -> new Item(new Item.Properties()) {
         @Override
         public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
@@ -46,7 +48,8 @@ public class ModItems {
     public static final DeferredItem<Item> DRAGON_CHEESE = ITEMS.register("dragon_cheese", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CHARGED_DRAGON_CHEESE = ITEMS.register("charged_dragon_cheese", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CHARGED_DRAGON_CHEESE_WITH_BREATH = ITEMS.register("charged_dragon_cheese_with_breath", () -> new Item(new Item.Properties()));
-    
+  
+    // the endgame
     public static final DeferredItem<Item> CHARGED_ULTRA_MEGA_CHEESE = ITEMS.register("charged_ultra_mega_cheese", () -> 
             new ChargedUltraMegaCheeseItem(new Item.Properties()
                     .food(new FoodProperties.Builder()
@@ -62,16 +65,22 @@ public class ModItems {
             .title(Component.translatable("itemGroup.flexymechanicalcheese.cheese_tab"))
             .icon(() -> new ItemStack(CHARGED_ULTRA_MEGA_CHEESE.get()))
             .displayItems((parameters, output) -> {
+
+// cheese branch
                 output.accept(INCOMPLETE_CHEESE.get());
                 output.accept(CHEESE_BASE.get());
                 output.accept(PRESSED_CHEESE_BASE.get());
                 output.accept(SUPER_CHEESE_RAW.get());
                 output.accept(ULTRA_MEGA_CHEESE.get());
+
+// dragon branch
                 output.accept(DRAGON_CHEESE_SHARD.get());
                 output.accept(RAW_DRAGON_CHEESE.get());
                 output.accept(DRAGON_CHEESE.get());
                 output.accept(CHARGED_DRAGON_CHEESE.get());
                 output.accept(CHARGED_DRAGON_CHEESE_WITH_BREATH.get());
+
+// the endgame
                 output.accept(CHARGED_ULTRA_MEGA_CHEESE.get());
             }).build());
 
