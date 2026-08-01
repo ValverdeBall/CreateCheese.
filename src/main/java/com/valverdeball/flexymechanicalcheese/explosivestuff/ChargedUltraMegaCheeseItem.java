@@ -1,4 +1,4 @@
-package com.valverdeball.flexymechanicalcheese;
+package com.valverdeball.flexymechanicalcheese.explosivestuff;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;

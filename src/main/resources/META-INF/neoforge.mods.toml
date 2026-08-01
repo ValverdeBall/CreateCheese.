@@ -2,12 +2,15 @@ modLoader="javafml"
 loaderVersion="[4,)"
 license="MIT"
 
+[[mixins]]
+config = "flexymechanicalcheese.mixins.json"
+
 [[mods]]
 modId="flexymechanicalcheese"
 version="1.0.0"
 displayName="Create: Cheese."
 logoFile="assets/flexymechanicalcheese/textures/item/logo.png"
-authors="SP Team"
+authors="ValverdeBall"
 description='''
 guys, its a very cool create addon about very easy to make cheese, yay
 '''

@@ -1,4 +1,4 @@
-package com.valverdeball.flexymechanicalcheese;
+package com.valverdeball.flexymechanicalcheese.everythingthatstartswithmod;
 
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -11,6 +11,8 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
+import com.valverdeball.flexymechanicalcheese.explosivestuff.UltraMegaCheeseItem;
+import com.valverdeball.flexymechanicalcheese.explosivestuff.ChargedUltraMegaCheeseItem;
 
 import java.util.List;
 

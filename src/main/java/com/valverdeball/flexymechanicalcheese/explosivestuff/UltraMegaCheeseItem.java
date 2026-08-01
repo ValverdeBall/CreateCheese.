@@ -1,4 +1,4 @@
-package com.valverdeball.flexymechanicalcheese;
+package com.valverdeball.flexymechanicalcheese.explosivestuff;
 
 public class UltraMegaCheeseItem extends TotallySafeHEBaseForCheese {
     public UltraMegaCheeseItem(Properties properties) {

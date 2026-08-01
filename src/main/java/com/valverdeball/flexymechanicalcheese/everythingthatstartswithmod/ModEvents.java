@@ -1,4 +1,4 @@
-package com.valverdeball.flexymechanicalcheese;
+package com.valverdeball.flexymechanicalcheese.everythingthatstartswithmod;
 
 import net.minecraft.world.entity.boss.enderdragon.EnderDragon;
 import net.minecraft.world.entity.item.ItemEntity;
@@ -6,6 +6,7 @@ import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.living.LivingDeathEvent;
+import com.valverdeball.flexymechanicalcheese.FlexyMechanicalCheese;
 
 @EventBusSubscriber(modid = FlexyMechanicalCheese.MODID)
 public class ModEvents {

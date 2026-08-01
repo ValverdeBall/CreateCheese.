@@ -1,4 +1,4 @@
-package com.valverdeball.flexymechanicalcheese;
+package com.valverdeball.flexymechanicalcheese.explosivestuff;
 
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
